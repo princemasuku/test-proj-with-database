@@ -1,0 +1,6 @@
+@test.begin.gig_HostAddress = http://localhost:5047
+
+GET {{test.begin.gig_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
